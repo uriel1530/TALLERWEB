@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    width: 100%;
+    height: 100hv;
+    background: linear-gradient(90deg, #d3e9f9, #fff);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px, 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-accion {
+    background: #122f5f;
+    color: white;
+    padding: 15px, 30px;
+    border-radius: 30px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-info .banner-imagen {
+    flex-basis: 50%;
+}
+
+.banner-info h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #122f5f;
+
+}
+
+.banner-imagen img {
+    width: 100%;
+}
+
+.pill {
+    background: #cbe9f9;
+    color: #3276e2;
+    padding: 10px, 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.pill img {
+    width: 25px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+}
